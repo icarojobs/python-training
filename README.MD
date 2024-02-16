@@ -1,6 +1,9 @@
 # PYTHON TRAINING
 This is my own python/django/fastapi/flask training environment.
 
+### LIVE TRAINING
+This content was produced in live at Tio Jobs channel => [https://www.youtube.com/watch?v=ChZWJzO-0zE](https://www.youtube.com/watch?v=ChZWJzO-0zE)
+
 ---
 ### COMMANDS:
 ```bash
