@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-training"
+version = "0.1.0"
+description = "My custom python training"
+authors = ["Icaro William"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
