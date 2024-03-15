@@ -3,6 +3,11 @@ up:
 	@echo "--> Starting your docker infrastructure..."
 	@docker compose up --force-recreate -d
 
+.PHONY: jupyter
+jupyter:
+	@echo "--> Starting your docker infrastructure with Jupyter..."
+	@docker compose up
+
 .PHONY: ps
 ps:
 	@echo "--> Listing all containers available..."

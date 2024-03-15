@@ -29,6 +29,14 @@ services:
     networks:
       - pythontraining
 
+  jupyter:
+      image: jupyter/minimal-notebook
+      volumes:
+        - ./notebooks:/home/jovyan/work
+      ports:
+        - 8888:8888
+      container_name: jupyter_notebook
+
   pgadmin:
     image: dpage/pgadmin4
     environment:
